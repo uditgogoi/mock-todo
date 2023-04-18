@@ -1,32 +1,36 @@
 {
-    "tasks":[
-         {
-            "id":1,
-            "task":{
-                "title":"Remove dead code",
-                "description":"Need to remove the dead code in the next commit and push the changes",
-                "expiry":"12/12/2023",
-                "status":"active"
+    "response": {
+        "success":1,
+        "message":"Successfully fetched",
+        "data":[
+             {
+                "id":1,
+                "task":{
+                    "title":"Remove dead code",
+                    "description":"Need to remove the dead code in the next commit and push the changes",
+                    "expiry":"12/12/2023",
+                    "status":"active"
+                },
+                "meta":{
+                    "createdOn":null,
+                    "expiry":false,
+                    "createdBy":"Udit"
+                }
             },
-            "meta":{
-                "createdOn":null,
-                "expiry":false,
-                "createdBy":"Udit"
-            }
-        },
-        {
-            "id":2,
-            "task":{
-                "title":"Create new DB for Users",
-                "description":"Need to create a new MySQL Database to store all the users",
-                "expiry":"12/12/2023",
-                "status":"active"
-            },
-            "meta":{
-                "createdOn":null,
-                "expiry":false,
-                "createdBy":"Udit"
-            }
-        }   
-    ]
+            {
+                "id":2,
+                "task":{
+                    "title":"Create new DB for Users",
+                    "description":"Need to create a new MySQL Database to store all the users",
+                    "expiry":"12/12/2023",
+                    "status":"active"
+                },
+                "meta":{
+                    "createdOn":null,
+                    "expiry":false,
+                    "createdBy":"Udit"
+                }
+            }   
+        ]
+    }
 }
