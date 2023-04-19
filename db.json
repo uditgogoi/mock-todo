@@ -1,5 +1,4 @@
 {
-    "response":{
     "data":[
              {
                 "id":1,
@@ -29,7 +28,8 @@
                     "createdBy":"Udit"
                 }
             }   
-        ]
-    }
+        ],
+    "success":1,
+    "message":"Successfully completed"
      
 }
