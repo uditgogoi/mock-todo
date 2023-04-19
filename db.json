@@ -28,6 +28,48 @@
                     "expiry":false,
                     "createdBy":"Udit"
                 }
+            },
+            {
+                "id":3,
+                "task":{
+                    "title":"Write test cases",
+                    "description":"Need to test cases for various scenerios and need to put it to CI/CD pipeline",
+                    "expiry":"12/12/2023",
+                    "status":"completed"
+                },
+                "meta":{
+                    "createdOn":null,
+                    "expiry":false,
+                    "createdBy":"Udit"
+                }
+            },
+            {
+                "id":4,
+                "task":{
+                    "title":"Add SSO auth module in the codebase",
+                    "description":"Need to add SSO auth module in the codebase. Cover all the major sites",
+                    "expiry":"12/12/2023",
+                    "status":"completed"
+                },
+                "meta":{
+                    "createdOn":null,
+                    "expiry":false,
+                    "createdBy":"Udit"
+                }
+            },
+            {
+                "id":5,
+                "task":{
+                    "title":"Add hashing algorith for password verification in node",
+                    "description":"Add SHA hash algo to compare passwords",
+                    "expiry":"12/12/2023",
+                    "status":"active"
+                },
+                "meta":{
+                    "createdOn":null,
+                    "expiry":false,
+                    "createdBy":"Udit"
+                }
             }   
         ],
     "success":1,
